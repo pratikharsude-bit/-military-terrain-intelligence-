@@ -1,0 +1,288 @@
+{
+  "dataset_pairs": 803,
+  "train_pairs": 683,
+  "validation_pairs": 120,
+  "seed": 42,
+  "image_size": 256,
+  "class_names": [
+    "urban_land",
+    "agriculture_land",
+    "rangeland",
+    "forest_land",
+    "water",
+    "barren_land"
+  ],
+  "best_val_mean_iou": 0.6485239267349243,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4463681579508858,
+      "train_pixel_accuracy": 0.5880671739578247,
+      "train_mean_iou": 0.27149009704589844,
+      "val_loss": 1.1690993746121725,
+      "val_pixel_accuracy": 0.7200557589530945,
+      "val_mean_iou": 0.45311006903648376,
+      "val_per_class_iou": {
+        "urban_land": 0.43797412514686584,
+        "agriculture_land": 0.7062665224075317,
+        "rangeland": 0.003514113137498498,
+        "forest_land": 0.6288931369781494,
+        "water": 0.565117359161377,
+        "barren_land": 0.37689533829689026
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.108261444383624,
+      "train_pixel_accuracy": 0.7025315761566162,
+      "train_mean_iou": 0.40168604254722595,
+      "val_loss": 0.8886359810829163,
+      "val_pixel_accuracy": 0.7845413684844971,
+      "val_mean_iou": 0.5630203485488892,
+      "val_per_class_iou": {
+        "urban_land": 0.622292697429657,
+        "agriculture_land": 0.7831379771232605,
+        "rangeland": 0.1479588747024536,
+        "forest_land": 0.6508130431175232,
+        "water": 0.7391909956932068,
+        "barren_land": 0.4347284138202667
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.9847178808242999,
+      "train_pixel_accuracy": 0.732505738735199,
+      "train_mean_iou": 0.45657941699028015,
+      "val_loss": 0.8844994346300761,
+      "val_pixel_accuracy": 0.768374502658844,
+      "val_mean_iou": 0.5598791837692261,
+      "val_per_class_iou": {
+        "urban_land": 0.5835173726081848,
+        "agriculture_land": 0.7473262548446655,
+        "rangeland": 0.18721933662891388,
+        "forest_land": 0.6570423245429993,
+        "water": 0.717801570892334,
+        "barren_land": 0.46636834740638733
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.9162294801820948,
+      "train_pixel_accuracy": 0.7446184754371643,
+      "train_mean_iou": 0.48310714960098267,
+      "val_loss": 0.7092512845993042,
+      "val_pixel_accuracy": 0.8092260956764221,
+      "val_mean_iou": 0.5699023008346558,
+      "val_per_class_iou": {
+        "urban_land": 0.6603814959526062,
+        "agriculture_land": 0.8106155395507812,
+        "rangeland": 0.13966374099254608,
+        "forest_land": 0.7169183492660522,
+        "water": 0.7396791577339172,
+        "barren_land": 0.35215526819229126
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.804976983091318,
+      "train_pixel_accuracy": 0.7771021127700806,
+      "train_mean_iou": 0.5203402042388916,
+      "val_loss": 0.676477066675822,
+      "val_pixel_accuracy": 0.81251460313797,
+      "val_mean_iou": 0.6019123792648315,
+      "val_per_class_iou": {
+        "urban_land": 0.6454488635063171,
+        "agriculture_land": 0.7933075428009033,
+        "rangeland": 0.189432293176651,
+        "forest_land": 0.7481225728988647,
+        "water": 0.683107852935791,
+        "barren_land": 0.5520550012588501
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7692573765186405,
+      "train_pixel_accuracy": 0.7824239730834961,
+      "train_mean_iou": 0.5325376391410828,
+      "val_loss": 0.6434159278869629,
+      "val_pixel_accuracy": 0.8094900846481323,
+      "val_mean_iou": 0.5861499309539795,
+      "val_per_class_iou": {
+        "urban_land": 0.6364404559135437,
+        "agriculture_land": 0.8180341720581055,
+        "rangeland": 0.17519180476665497,
+        "forest_land": 0.6828566193580627,
+        "water": 0.7494207620620728,
+        "barren_land": 0.4549555480480194
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7086277027255794,
+      "train_pixel_accuracy": 0.7999933958053589,
+      "train_mean_iou": 0.5598141551017761,
+      "val_loss": 0.627018294731776,
+      "val_pixel_accuracy": 0.818918764591217,
+      "val_mean_iou": 0.6148539781570435,
+      "val_per_class_iou": {
+        "urban_land": 0.6260014772415161,
+        "agriculture_land": 0.8079966902732849,
+        "rangeland": 0.23490191996097565,
+        "forest_land": 0.7291494011878967,
+        "water": 0.7476317882537842,
+        "barren_land": 0.5434426665306091
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6807845727940081,
+      "train_pixel_accuracy": 0.805870771408081,
+      "train_mean_iou": 0.5718550682067871,
+      "val_loss": 0.6280092358589172,
+      "val_pixel_accuracy": 0.826800525188446,
+      "val_mean_iou": 0.6124387979507446,
+      "val_per_class_iou": {
+        "urban_land": 0.6450782418251038,
+        "agriculture_land": 0.8188366889953613,
+        "rangeland": 0.1749042570590973,
+        "forest_land": 0.7138050198554993,
+        "water": 0.7636101245880127,
+        "barren_land": 0.5583985447883606
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.6328831116503887,
+      "train_pixel_accuracy": 0.8189104199409485,
+      "train_mean_iou": 0.593949019908905,
+      "val_loss": 0.5643222113450368,
+      "val_pixel_accuracy": 0.8302001953125,
+      "val_mean_iou": 0.6237363219261169,
+      "val_per_class_iou": {
+        "urban_land": 0.6533362865447998,
+        "agriculture_land": 0.8183684349060059,
+        "rangeland": 0.2008516937494278,
+        "forest_land": 0.7355657815933228,
+        "water": 0.7726942896842957,
+        "barren_land": 0.561601459980011
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.5988685580333191,
+      "train_pixel_accuracy": 0.8246565461158752,
+      "train_mean_iou": 0.5987576842308044,
+      "val_loss": 0.5338536143302918,
+      "val_pixel_accuracy": 0.8369051814079285,
+      "val_mean_iou": 0.6254358291625977,
+      "val_per_class_iou": {
+        "urban_land": 0.6811144948005676,
+        "agriculture_land": 0.8267843723297119,
+        "rangeland": 0.1715616136789322,
+        "forest_land": 0.7237529158592224,
+        "water": 0.7682297229766846,
+        "barren_land": 0.5811717510223389
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.5440142832772799,
+      "train_pixel_accuracy": 0.8408108949661255,
+      "train_mean_iou": 0.6313533782958984,
+      "val_loss": 0.5310386955738068,
+      "val_pixel_accuracy": 0.8299139142036438,
+      "val_mean_iou": 0.6287888288497925,
+      "val_per_class_iou": {
+        "urban_land": 0.6717016100883484,
+        "agriculture_land": 0.8183730244636536,
+        "rangeland": 0.2119138091802597,
+        "forest_land": 0.7371998429298401,
+        "water": 0.7615069150924683,
+        "barren_land": 0.5720375776290894
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5437770842807709,
+      "train_pixel_accuracy": 0.8389990329742432,
+      "train_mean_iou": 0.624412477016449,
+      "val_loss": 0.4968161106109619,
+      "val_pixel_accuracy": 0.8475795388221741,
+      "val_mean_iou": 0.6361507177352905,
+      "val_per_class_iou": {
+        "urban_land": 0.6868812441825867,
+        "agriculture_land": 0.8333830237388611,
+        "rangeland": 0.18261778354644775,
+        "forest_land": 0.7719990611076355,
+        "water": 0.7555893659591675,
+        "barren_land": 0.5864336490631104
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.5360625350457857,
+      "train_pixel_accuracy": 0.8409395217895508,
+      "train_mean_iou": 0.6265279054641724,
+      "val_loss": 0.5065907875696818,
+      "val_pixel_accuracy": 0.8368871212005615,
+      "val_mean_iou": 0.629469096660614,
+      "val_per_class_iou": {
+        "urban_land": 0.6797183156013489,
+        "agriculture_land": 0.830172061920166,
+        "rangeland": 0.22140152752399445,
+        "forest_land": 0.7108809351921082,
+        "water": 0.7540782690048218,
+        "barren_land": 0.5805631875991821
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.5068380768965837,
+      "train_pixel_accuracy": 0.8480330109596252,
+      "train_mean_iou": 0.6456582546234131,
+      "val_loss": 0.5503383894761403,
+      "val_pixel_accuracy": 0.8181161284446716,
+      "val_mean_iou": 0.6253213882446289,
+      "val_per_class_iou": {
+        "urban_land": 0.6278237700462341,
+        "agriculture_land": 0.8016932010650635,
+        "rangeland": 0.24712534248828888,
+        "forest_land": 0.7119365334510803,
+        "water": 0.7765368819236755,
+        "barren_land": 0.5868125557899475
+      },
+      "learning_rate": 0.0001
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.4887014488699146,
+      "train_pixel_accuracy": 0.8540877103805542,
+      "train_mean_iou": 0.6564696431159973,
+      "val_loss": 0.503034915526708,
+      "val_pixel_accuracy": 0.833803653717041,
+      "val_mean_iou": 0.6485239267349243,
+      "val_per_class_iou": {
+        "urban_land": 0.6847441792488098,
+        "agriculture_land": 0.8141677379608154,
+        "rangeland": 0.25755807757377625,
+        "forest_land": 0.762147068977356,
+        "water": 0.7702714800834656,
+        "barren_land": 0.6022546887397766
+      },
+      "learning_rate": 0.0001
+    }
+  ]
+}

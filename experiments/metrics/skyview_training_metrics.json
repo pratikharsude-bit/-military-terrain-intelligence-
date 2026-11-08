@@ -1,0 +1,97 @@
+{
+  "architecture": "ResNet18",
+  "device": "cuda",
+  "classes": [
+    "Agriculture",
+    "Airport",
+    "Beach",
+    "City",
+    "Desert",
+    "Forest",
+    "Grassland",
+    "Highway",
+    "Lake",
+    "Mountain",
+    "Parking",
+    "Port",
+    "Railway",
+    "Residential",
+    "River"
+  ],
+  "best_epoch": 10,
+  "best_validation_accuracy": 97.083,
+  "test_accuracy": 96.417,
+  "test_loss": 0.11918,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.85411,
+      "train_accuracy": 74.094,
+      "val_loss": 0.75467,
+      "val_accuracy": 78.333
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.47934,
+      "train_accuracy": 85.062,
+      "val_loss": 0.33981,
+      "val_accuracy": 89.333
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.36112,
+      "train_accuracy": 88.823,
+      "val_loss": 0.3376,
+      "val_accuracy": 88.667
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.31348,
+      "train_accuracy": 90.021,
+      "val_loss": 0.45433,
+      "val_accuracy": 88.333
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.27296,
+      "train_accuracy": 91.042,
+      "val_loss": 0.35552,
+      "val_accuracy": 88.917
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.1336,
+      "train_accuracy": 95.719,
+      "val_loss": 0.12295,
+      "val_accuracy": 96.167
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.1046,
+      "train_accuracy": 96.656,
+      "val_loss": 0.1525,
+      "val_accuracy": 95.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.109,
+      "train_accuracy": 96.26,
+      "val_loss": 0.15355,
+      "val_accuracy": 94.583
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.10227,
+      "train_accuracy": 96.594,
+      "val_loss": 0.17812,
+      "val_accuracy": 94.167
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0531,
+      "train_accuracy": 98.271,
+      "val_loss": 0.09282,
+      "val_accuracy": 97.083
+    }
+  ]
+}

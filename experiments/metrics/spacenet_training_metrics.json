@@ -1,0 +1,126 @@
+{
+    "best_val_iou": 0.09542571430238156,
+    "epochs_completed": 15,
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 1.0954019486666675,
+            "train_iou": 0.20222521941381622,
+            "val_loss": 1.0405719926424115,
+            "val_iou": 0.09542571430238156,
+            "epoch_time_seconds": 51.94
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.8354412905011044,
+            "train_iou": 0.28509294869474683,
+            "val_loss": 1.133824430336462,
+            "val_iou": 0.0710770755997537,
+            "epoch_time_seconds": 53.8
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.7563028168749524,
+            "train_iou": 0.33318569395409164,
+            "val_loss": 1.1033280658944744,
+            "val_iou": 0.06497656095067962,
+            "epoch_time_seconds": 54.13
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.7004041485933669,
+            "train_iou": 0.3705710406263036,
+            "val_loss": 1.1015979870457515,
+            "val_iou": 0.06220565486272849,
+            "epoch_time_seconds": 52.75
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.658985057615664,
+            "train_iou": 0.3956565739980257,
+            "val_loss": 1.1377232581655556,
+            "val_iou": 0.048858109654893525,
+            "epoch_time_seconds": 51.94
+        },
+        {
+            "epoch": 6,
+            "train_loss": 0.6212476090605991,
+            "train_iou": 0.41992061080566917,
+            "val_loss": 1.100423089811735,
+            "val_iou": 0.06011616172939191,
+            "epoch_time_seconds": 51.36
+        },
+        {
+            "epoch": 7,
+            "train_loss": 0.5826183831193058,
+            "train_iou": 0.44652342077982854,
+            "val_loss": 1.1418634920476753,
+            "val_iou": 0.05376753450815226,
+            "epoch_time_seconds": 50.73
+        },
+        {
+            "epoch": 8,
+            "train_loss": 0.5473787079888036,
+            "train_iou": 0.470729368349233,
+            "val_loss": 1.1524464064669386,
+            "val_iou": 0.05373300243578155,
+            "epoch_time_seconds": 53.52
+        },
+        {
+            "epoch": 9,
+            "train_loss": 0.5051547561389992,
+            "train_iou": 0.5016430005490542,
+            "val_loss": 1.1334750780435365,
+            "val_iou": 0.05364540073950993,
+            "epoch_time_seconds": 54.81
+        },
+        {
+            "epoch": 10,
+            "train_loss": 0.4667491346478937,
+            "train_iou": 0.5328427655288422,
+            "val_loss": 1.178909595881667,
+            "val_iou": 0.047773553736597106,
+            "epoch_time_seconds": 54.17
+        },
+        {
+            "epoch": 11,
+            "train_loss": 0.4227162057244445,
+            "train_iou": 0.5692501263433244,
+            "val_loss": 1.1519232080361554,
+            "val_iou": 0.0642465729457892,
+            "epoch_time_seconds": 51.35
+        },
+        {
+            "epoch": 12,
+            "train_loss": 0.38703246868820307,
+            "train_iou": 0.6005811904412341,
+            "val_loss": 1.3043679583852537,
+            "val_iou": 0.02864207876585076,
+            "epoch_time_seconds": 52.11
+        },
+        {
+            "epoch": 13,
+            "train_loss": 0.34305103161776684,
+            "train_iou": 0.6395162546124117,
+            "val_loss": 1.2243403146200091,
+            "val_iou": 0.030659875954353363,
+            "epoch_time_seconds": 52.88
+        },
+        {
+            "epoch": 14,
+            "train_loss": 0.3037103125714211,
+            "train_iou": 0.6781511456367979,
+            "val_loss": 1.321437009027071,
+            "val_iou": 0.030933149965157922,
+            "epoch_time_seconds": 53.56
+        },
+        {
+            "epoch": 15,
+            "train_loss": 0.27245522388424054,
+            "train_iou": 0.7097184579092193,
+            "val_loss": 1.2252025626530156,
+            "val_iou": 0.047845964202500674,
+            "epoch_time_seconds": 53.84
+        }
+    ]
+}

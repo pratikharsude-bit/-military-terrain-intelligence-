@@ -1,0 +1,10 @@
+{
+  "model": "SkyView ResNet18",
+  "dataset": "SkyView aerial landscape dataset",
+  "test_images": 1200,
+  "classes": 15,
+  "test_accuracy": 96.42,
+  "macro_f1": 0.96,
+  "weighted_f1": 0.96,
+  "evaluation_status": "Completed"
+}

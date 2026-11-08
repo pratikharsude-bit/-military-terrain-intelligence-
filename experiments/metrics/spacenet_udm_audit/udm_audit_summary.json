@@ -1,0 +1,20 @@
+{
+    "total_udm_files": 1423,
+    "matched_images": 1423,
+    "missing_images": 0,
+    "empty_udm_files": 1226,
+    "non_empty_udm_files": 197,
+    "total_features": 404,
+    "valid_features": 404,
+    "invalid_features": 0,
+    "repaired_features": 0,
+    "failed_geometries": 0,
+    "overlapping_polygons": 403,
+    "outside_polygons": 1,
+    "processing_errors": 0,
+    "total_ignore_pixels": 44459934,
+    "total_image_pixels": 1491636273,
+    "overall_ignore_coverage_percent": 2.9806,
+    "visual_samples_saved": 5,
+    "errors": []
+}
