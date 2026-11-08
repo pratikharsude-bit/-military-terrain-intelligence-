@@ -1,0 +1,16 @@
+{
+  "input_image": "C:\\Users\\Pratik Harsude\\OneDrive\\Desktop\\1000_F_286231801_gtlQY3FZBIu4kHuf9uLl0pHVsssO9BVf.jpg",
+  "image_width": 1000,
+  "image_height": 748,
+  "model": "DeepGlobe U-Net with ResNet18 encoder",
+  "best_validation_mIoU": 0.6485239267349243,
+  "class_percentages": {
+    "urban_land": 100.0,
+    "agriculture_land": 0.0,
+    "rangeland": 0.0,
+    "forest_land": 0.0,
+    "water": 0.0,
+    "barren_land": 0.0
+  },
+  "warning": "Estimated segmentation; validation metric is not test accuracy."
+}
