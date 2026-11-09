@@ -109,26 +109,96 @@ This model generates predicted building masks and overlays.
 ## Project Structure
 
 ```text
-military-terrain-analysis/
+Military-Terrain-Analysis/
 │
 ├── app/
+│   ├── __init__.py
 │   ├── main.py
 │   ├── pipeline.py
+│   │
 │   └── inference/
+│       ├── __init__.py
 │       ├── skyview_inference.py
-│       ├── deepglobe_inference.py
 │       ├── eurosat_inference.py
+│       ├── deepglobe_inference.py
 │       └── spacenet_inference.py
 │
+├── src/
+│   ├── analysis/
+│   ├── inference/
+│   ├── models/
+│   ├── preprocessing/
+│   ├── services/
+│   └── utils/
+│
+├── configs/
+│   └── model_config.yaml
+│
+├── scripts/
+│   ├── skyview/
+│   │   ├── train_skyview.py
+│   │   ├── evaluate_skyview.py
+│   │   ├── predict_skyview.py
+│   │   └── split_skyview.py
+│   │
+│   ├── eurosat/
+│   │   ├── train_eurosat_allbands.py
+│   │   ├── evaluate_eurosat_allbands.py
+│   │   ├── predict_eurosat_allbands.py
+│   │   ├── inspect_eurosat_bands.py
+│   │   └── test_eurosat_loader.py
+│   │
+│   ├── deepglobe/
+│   │
+│   └── spacenet/
+│       ├── spacenet_dataset.py
+│       ├── spacenet_model.py
+│       ├── train_spacenet.py
+│       ├── prepare_spacenet.py
+│       ├── split_spacenet.py
+│       ├── inspect_spacenet.py
+│       ├── inspect_masks.py
+│       ├── audit_udm.py
+│       └── check_udm_matching.py
+│
 ├── models/
-│   └── checkpoints/
+│   ├── checkpoints/
+│   │   └── README.md
+│   ├── final/
+│   └── registry/
 │
 ├── data/
 │   ├── raw/
+│   │   └── README.md
 │   └── processed/
+│       └── README.md
 │
+├── experiments/
+│   ├── figures/
+│   ├── logs/
+│   ├── metrics/
+│   └── reports/
+│
+├── outputs/
+│   ├── predictions/
+│   ├── visualizations/
+│   └── exports/
+│
+├── docs/
+│   ├── architecture/
+│   ├── methodology/
+│   ├── results/
+│   └── screenshots/
+│
+├── tests/
+│
+├── .streamlit/
+│   └── config.toml
+│
+├── .gitignore
 ├── requirements.txt
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 *The structure above represents the main application components. Additional training scripts, configuration files, and supporting folders may also be present.*
